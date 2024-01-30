@@ -1,25 +1,40 @@
-# KAY/O
+# KAY/O: Keep An Eye Out
 
-crash detection server: [https://github.com/ST2-EV/kayo-cds](https://github.com/ST2-EV/kayo-cds)
+Have you ever felt scared of leaving your belongings unattended on a table? Introducing KAY/O, a website that uses object recognition to keep track of all your belongings, utilizing only your laptop's camera!
 
-###### Setup:
+## Features
+- **Object Recognition:** KAY/O uses YOLOv8 for object recognition to track your belongings.
+- **Crash Detection:** The system includes a crash detection server to avoid thieves closing the application, or shutting down the laptop.
+- **Alerts via Twilio:** Set up Twilio environment variables to receive text alerts straight to your phone.
 
-set twilio env variables
-```
-TWILIO_ACCOUNT_SID=xxxxxxxxxxxx
-TWILIO_AUTH_TOKEN=xxxxxxxxxxxxx
-```
+## Demo
+https://www.youtube.com/watch?v=aLop-hipPUE
 
-(optional but recommended) create venv
+### Setup
+1. Clone the crash detection server repository:
+    ```bash
+    git clone https://github.com/ST2-EV/kayo-cds.git
+    cd kayo-cds
+    ```
 
+2. Set Twilio environment variables:
+    ```bash
+    export TWILIO_ACCOUNT_SID=xxxxxxxxxxxx
+    export TWILIO_AUTH_TOKEN=xxxxxxxxxxxxx
+    ```
 
-install requirements
-```
-pip install -r requirements.txt
-```
+3. (Optional but recommended) Create a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+    ```
 
+4. Install requirements:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-run
-```
-python3 ui.py
-```
+5. Run the application:
+    ```bash
+    python ui.py
+    ```
