@@ -11,7 +11,9 @@ Have you ever felt scared of leaving your belongings unattended on a table? Intr
 ## Demo
 https://www.youtube.com/watch?v=aLop-hipPUE
 
-### Setup
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/aLop-hipPUE/0.jpg)](https://www.youtube.com/watch?v=aLop-hipPUE)
+
+## Setup
 1. Clone the crash detection server repository:
     ```bash
     git clone https://github.com/ST2-EV/kayo-cds.git
