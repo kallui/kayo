@@ -1,7 +1,7 @@
 # KAY/O: Keep An Eye Out
 ![KAYO Thumbnail](https://github.com/kallui/kayo/assets/90471072/fd19891a-29d7-41fe-9a49-326d99ec2b6a)
 
-Have you ever felt scared of leaving your belongings unattended on a table? Introducing KAY/O, a website that uses object recognition to keep track of all your belongings, utilizing only your laptop's camera!
+Leaving your stuff unattended at a cafe or library? KAY/O watches it for you using just your laptop camera and object recognition to alert you if anything goes missing.
 
 ## Features
 - **Object Recognition:** KAY/O uses YOLOv8 for object recognition to track your belongings.
